@@ -48,7 +48,7 @@ def train(hp, resume, load_from):
     index_to_word = {index: word for index, word in enumerate(vocab)}
     
     # select model 
-    model = CBOW(vocab_size, EMBEDDING_DIM)
+    model = CBOW(vocab_size, EMBEDDING_DIM).to(device)
     
     # choose loss function and optimizer 
     loss_function = nn.NLLLoss()
