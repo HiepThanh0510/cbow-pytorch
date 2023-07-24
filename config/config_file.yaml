@@ -1,0 +1,5 @@
+CONTEXT_SIZE: 2 # 2 words to the left, 2 to the right
+EMBEDDING_DIM: 100 
+
+train: data/raw_data.txt
+checkpoint_path: checkpoint/model.pt
