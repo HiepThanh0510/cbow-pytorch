@@ -22,7 +22,9 @@ In this repo, I implement a CBOW (Continuous Bag of Words) model based on the [E
 
 ### Training
 ```
-python3 train.py --config config/config_file.yaml
+$ git clone https://github.com/HiepThanh0510/cbow-pytorch
+
+$ python3 train.py --config config/config_file.yaml
 ```
 
 ### Example: 
